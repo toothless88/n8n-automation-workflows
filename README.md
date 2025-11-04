@@ -1,29 +1,45 @@
 # ⚙️ n8n Automation Workflows Collection
 
-A curated collection of **22 production-ready n8n workflows** integrating Google Workspace, Gmail, WordPress, Webflow, Airtable, Figma, and AI-powered automation tools.  
-
-All workflows are released under the **MIT License** and are organized by category for easy navigation.
+A curated collection of **22 production-ready n8n workflows** integrating **Google Workspace, WordPress, Webflow, Airtable, Figma, Affinity**, and more — all organized by category for clarity and easy exploration.  
+Demonstration of clean automation design, error handling, and API integration skills.
 
 ---
 
-## 📂Categories
+## 📂 Categories Overview
 
 | Category | Folder | Description |
 |-----------|---------|-------------|
-| Gmail | [/gmail](./gmail) | Automations connecting Gmail with Google Sheets, Drive, and Calendar |
-| WordPress | /wordpress | Content automation, blog uploads, scheduled updates |
-| Google | /google | Calendar-based triggers and task executions |
-| Webflow | /webflow | Form and CMS automation |
-| Airtable | /airtable | Email verification and data sync |
-| Figma | /figma | Sticky note and design sync automations |
+| **Gmail** | [/gmail](./gmail) | Automations combining Gmail with Google Sheets, Drive, and Calendar triggers. |
+| **WordPress** | [/wordpress](./wordpress) | Content automation: generate, post, or update WordPress content automatically. |
+| **Google** | [/google](./google) | Advanced Google Workspace automations (Calendar & Sheets). |
+| **Webflow** | [/webflow](./webflow) | CMS & form submission processing with Webflow triggers. |
+| **Airtable** | [/airtable](./airtable) | Email and record validation workflows using the Airtable API. |
+| **Figma** | [/figma](./figma) | Syncs Figma design updates and sticky notes with project tools. |
+| **SSE** | [/sse](./sse) | Real-time event streaming using Server-Sent Events (SSE) triggers. |
+| **Affinity** | [/affinity](./affinity) | Monitors Affinity CRM for new list creation and syncs data automatically. |
 
 ---
 
-## How to Use
+## 🧠 How to Use These Workflows
 
-1. Download any `.json` file from the folder you’re interested in.  
-2. In **n8n** → *Workflows → Import from File* → select the file.  
-3. Update credentials (Google, OpenAI, etc.).  
-4. Run or schedule your automation.
+1. **Download** any `.json` file from its folder.  
+2. **Open** your n8n instance → *Workflows → Import from File*.  
+3. **Update credentials** (Google, WordPress, Airtable, etc.) as needed.  
+4. **Run or schedule** the workflow manually or through a trigger (Gmail, webhook, cron).  
 
+>  For demo setups, use sandbox accounts like Mailtrap (for Gmail) or test Google Sheets to avoid exposing private data.
+Each workflow is open-source under an MIT License
+---
+
+## 🪄 Highlights
+
+-  **22 unique workflows** across 8 platforms  
+-  **Fully modular** structure for easy import  
+-  **Descriptive node names & sticky notes** for readability  
+-  **Built-in error handling** and structured retry logic  
+
+---
+
+
+🧩 *Built and organized by Ivan — Automation Designer & n8n Enthusiast.*
 
